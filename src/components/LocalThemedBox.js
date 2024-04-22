@@ -15,13 +15,13 @@ const LocalThemedBox = () => {
     }, [theme]);
 
     return (
-        <div id="local-themed-box" className={bg-${localTheme}}>
-            <p id="local-themed-text-container" className={txt-${localTheme}}>
+        <div id="local-themed-box" className={`bg-${localTheme}`}>
+            <p id="local-themed-text-container" className={`txt-${localTheme}`}>
                 Local Themed Text
             </p>
             <button
                 id="local-theme-toggler"
-                className={btn ${localTheme === 'light' ? 'btn-light' : 'btn-dark'} txt-${localTheme}}
+                className={`btn ${localTheme === 'light' ? 'btn-light' : 'btn-dark'} txt-${localTheme}`}
                 onClick={toggleLocalTheme}
             >
                 Toggle local theme to {localTheme === 'light' ? 'dark' : 'light'}
