@@ -29,5 +29,4 @@ const LocalThemedBox = () => {
         </div>
     );
 };
-
 export { LocalThemedBox };
