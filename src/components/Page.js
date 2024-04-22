@@ -21,5 +21,4 @@ const Page = () => {
         </div>
     );
 };
-
 export { Page };
